@@ -49,25 +49,10 @@ const Projects = () => {
   return (
     <div className={ProjectsCss.outer}>
 
-      <h1>Frontend Projects</h1>
+      <h1>My Projects</h1>
       <br />
-      <Cards title="Interactive web Game" Basic_info={info_1} ul={ul_1} moreData={moreData_1} host="https://gammingwithmayur.netlify.app/" git='' />
-      <Cards title="Upcomming" Basic_info="Not Yet Developed I will Make it soon" ul={ul_1} moreData="No Data avalible" />
-
-      <br /><br /><br />
-
-      <h3>Note : This project is also Developed by me!</h3>
-
-      <br /><br /><hr />
-
-      <h1>Backend Projects</h1>
-      <Cards title="👗 Fashora Shopping Website" Basic_info={info_3} ul={ul_3} moreData={moreData_1} />
-      <Cards title=" TalkBridge" Basic_info={info_4} ul={ul_3} moreData={moreData_1} />
-
-      <br /><br /><hr />
-
-      <h1>Java</h1>
-      <Cards />
+      <Cards title=" Battery Pack Design" ,first="Language Used: MATLAB.",second="Tools: MATLAB, Simulink.",third="Overview: Designed an 8-bit shifter using Verilog to shift left " Basic_info={info_1} ul={ul_1} moreData={moreData_1} host="https://gammingwithmayur.netlify.app/" git='' />
+      <Cards title="Design of an 8-bit Shifter using Verilog" ,first="Language Used: Verilog.",second="Tools Used: EDA Playground.",third="Overview: Designed a 14.4V Li-ion battery pack with a 4S" Basic_info="Not Yet Developed I will Make it soon" ul={ul_1} moreData="No Data avalible" />
       <Outlet />
 
     </div>
