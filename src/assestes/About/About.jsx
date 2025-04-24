@@ -4,7 +4,7 @@ import mayur from '../Home/image.png';
 import Loading from '../Loading/Loadingpage'
 const About = () => {
 
-
+ 
   const imgsorce = mayur;
   const [loading, setLoading] = useState(true);
   useEffect(() => {
