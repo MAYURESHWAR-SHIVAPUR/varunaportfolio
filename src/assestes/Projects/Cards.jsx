@@ -4,15 +4,18 @@ import ProjectsCss from './ProjectsCss.module.css'
 
 const Cards = (props) => {
 
-    const { title, Basic_info, ul, moreData , host,git } = props;
+    const { title,first,second,third, Basic_info, ul, moreData , host,git } = props;
     
     return (
         <>
             <div className={ProjectsCss.child_1}>
                 <h1 >{title}</h1>
 
-                <div className={ProjectsCss.mobile}></div>
-                <div className={ProjectsCss.laptop}></div>
+                <ul>
+                    <li>{first}</li>
+                    <li>{second}</li>
+                    <li>{third}</li>
+                </ul>
 
                 <p>{Basic_info}</p>
 
