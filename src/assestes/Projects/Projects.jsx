@@ -36,7 +36,7 @@ const Projects = () => {
 
 
   // frontend first 
-  const info_1 = "This web app features over six unique games, offering both single-player modes and AI - based gameplay.Developed using React, it showcases my  expertise in building interactive applications, implementing login systems, and crafting engaging user experiences with creativity.";
+  const info_1 = "configuration (four cells in series), achieving a 1C discharge rate of 3400mAh. Focused on optimizing cell balancing, thermal management, and safety features to ensure reliable performance.";
   const ul_1 = <ul> <li>React js</li> <li>Css</li></ul>
   const moreData_1 = "";
 
@@ -57,10 +57,6 @@ const Projects = () => {
       second="Tools: MATLAB, Simulink."
       third="Overview: Designed a 14.4V Li-ion battery pack with a 4S configuration."
       Basic_info={info_1} 
-      ul={ul_1} 
-      moreData={moreData_1} 
-      host="https://gammingwithmayur.netlify.app/" 
-      git='' 
     />
 
     <Cards 
@@ -68,9 +64,7 @@ const Projects = () => {
       first="Language Used: Verilog." 
       second="Tools Used: EDA Playground." 
       third="Overview: Designed an 8-bit shifter using Verilog to shift left." 
-      Basic_info="Not Yet Developed, I will make it soon" 
-      ul={ul_1} 
-      moreData="No Data available" 
+      Basic_info="right by N bits based on control inputs. The design used a multiplexer-based architecture and was verified using a testbench. It functioned correctly under all test cases and met timing constraints." 
     />
 
     <Outlet />
