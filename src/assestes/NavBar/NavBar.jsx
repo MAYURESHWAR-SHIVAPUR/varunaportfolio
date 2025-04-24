@@ -41,7 +41,6 @@ const NavBar = () => {
         <NavLink className={({ isActive }) => isActive ? NavCss.Active : ""} to='/'>Home</NavLink>
         <NavLink className={({ isActive }) => isActive ? NavCss.Active : ""} to='/about'>About</NavLink>
         <NavLink className={({ isActive }) => isActive ? NavCss.Active : ""} to='/portfolio/project'>Portfolio</NavLink>
-        <NavLink className={({ isActive }) => isActive ? NavCss.Active : ""} to='/contact'>Contact</NavLink>
         <NavLink className={({ isActive }) => isActive ? NavCss.Active : ""} to='/resume'>Resume</NavLink>
       </section>
     </div>

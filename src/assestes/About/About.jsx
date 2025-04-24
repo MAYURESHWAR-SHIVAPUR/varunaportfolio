@@ -28,7 +28,11 @@ const About = () => {
     <div className={AboutCss.outer}>
       <div className={AboutCss.child1}>
         <h2>Hi, I'm <b className={AboutCss.fonts}>VARUN</b> </h2>
-        <p> need to edit </p>
+        <p>I'm a passionate Electronics and Communication Engineering student in the final semester of my B.E. at Cauvery Institute of Technology, Mandya, with a strong foundation in core electronics, embedded systems, and circuit design. My curiosity to understand how technology works has driven me to explore projects in battery pack design using MATLAB and digital system design using Verilog and UVM.
+
+          With hands-on experience in microcontrollers (8051), communication protocols like UART, SPI, I2C, and CAN, and tools like KiCad for PCB design, I enjoy building solutions that bridge theory with practical application. I'm also skilled in C programming and have a growing interest in power electronics and system simulation.
+
+          Known for my problem-solving mindset, collaborative spirit, and adaptability, I'm always eager to take on new challenges, contribute meaningfully to tech-driven projects, and continuously expand my technical horizon.</p>
         <h2 className={AboutCss.fonts}>Educational History</h2>
         <h3> Bachelor of Engineering (2021 - 2025)(CGPA : 8.6)</h3>
         <p> I am currently pursuing my Engineering degree in Electronis and Communication Engineering at
