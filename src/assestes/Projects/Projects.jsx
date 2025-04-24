@@ -47,16 +47,36 @@ const Projects = () => {
   // backend second
   const info_4 = "This is website which is connects two or more people in group where they can send text messsages , images and many more this is also User friendly and easy to use which make it more relaible"
   return (
-    <div className={ProjectsCss.outer}>
+  <div className={ProjectsCss.outer}>
+    <h1>My Projects</h1>
+    <br />
 
-      <h1>My Projects</h1>
-      <br />
-      <Cards title=" Battery Pack Design" ,first="Language Used: MATLAB.",second="Tools: MATLAB, Simulink.",third="Overview: Designed an 8-bit shifter using Verilog to shift left " Basic_info={info_1} ul={ul_1} moreData={moreData_1} host="https://gammingwithmayur.netlify.app/" git='' />
-      <Cards title="Design of an 8-bit Shifter using Verilog" ,first="Language Used: Verilog.",second="Tools Used: EDA Playground.",third="Overview: Designed a 14.4V Li-ion battery pack with a 4S" Basic_info="Not Yet Developed I will Make it soon" ul={ul_1} moreData="No Data avalible" />
-      <Outlet />
+    <Cards 
+      title="Battery Pack Design" 
+      first="Language Used: MATLAB."
+      second="Tools: MATLAB, Simulink."
+      third="Overview: Designed a 14.4V Li-ion battery pack with a 4S configuration."
+      Basic_info={info_1} 
+      ul={ul_1} 
+      moreData={moreData_1} 
+      host="https://gammingwithmayur.netlify.app/" 
+      git='' 
+    />
 
-    </div>
-  )
+    <Cards 
+      title="Design of an 8-bit Shifter using Verilog" 
+      first="Language Used: Verilog." 
+      second="Tools Used: EDA Playground." 
+      third="Overview: Designed an 8-bit shifter using Verilog to shift left." 
+      Basic_info="Not Yet Developed, I will make it soon" 
+      ul={ul_1} 
+      moreData="No Data available" 
+    />
+
+    <Outlet />
+  </div>
+);
+
 }
 
 export default Projects
