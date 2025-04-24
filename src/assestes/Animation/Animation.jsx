@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import AnimationCss from './AnimationCss.module.css'
-
+  
 const Animation = () => {
     const arr = 'BY :  VARUN  '
     let lines = useRef('');
