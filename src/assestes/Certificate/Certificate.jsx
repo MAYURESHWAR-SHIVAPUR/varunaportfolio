@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import CertificateCss from './CertificateCss.module.css';
-import img_1 from './photos/1.png';
+import img_1 from './photos/1.jpg';
 import img_2 from './photos/2.jpg';
 import img_4 from './photos/3.jpg';
 import img_3 from './photos/4.jpg';
