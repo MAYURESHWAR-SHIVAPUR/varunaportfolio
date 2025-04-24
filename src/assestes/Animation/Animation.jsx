@@ -12,7 +12,7 @@ const Animation = () => {
             clearInterval(running);
         }
     }, 500);
-
+ 
     return (
         <div className={AnimationCss.outer}>
             <section>
