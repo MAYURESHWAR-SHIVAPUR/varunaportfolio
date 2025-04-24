@@ -18,21 +18,6 @@ const Cards = (props) => {
             <p>{Basic_info}</p>
 
             <br />
-            <details className={ProjectsCss.moreDetails}>
-                <summary className="color">More Details</summary>
-
-                <br />
-
-                <h3 className="color font">Visit Website</h3>
-                {git && <a href={git}>GitHub <span>Click Me!</span></a>}
-                {host && <a href={host}>Hosted <span>Click Me!</span></a>}
-
-                <br /><br /><br />
-
-                <h3 className="color font">Languages Used</h3>
-                {ul}
-                <p>{moreData}</p>
-            </details>
         </div>
     );
 };
