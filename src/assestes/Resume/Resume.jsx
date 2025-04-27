@@ -1,14 +1,16 @@
 import React, { useEffect, useRef } from 'react'
 import ResumeCss from './ResumeCss.module.css'
 import frontend from './oneone.png'
-import fullstack from './fullstack.png'
+import frontendone from './onetwo.png'
+import fullstack from './twoone.png'
+import fullstackone from './twotwo.png'
 import Errors from '../Error/Error'
 
 const Resume = () => {
 
   const shows = useRef();
   const back = useRef();
-  const arr = [frontend, "", fullstack];
+  const arr = [frontend, frontendone, fullstack,fullstackone];
 
   function hide() {
     shows.current.style.visibility = "hidden";
