@@ -2,8 +2,8 @@ import { Outlet } from 'react-router-dom';
 import SkillCss from './SkillCss.module.css';
 import Cards from './cards';
 import zero from './photos/download.png';
-import one from './photos/download(1).png';
-import two from './photos/download(2).png';
+import one from './photos/download (1).png';
+import two from './photos/download (2).png';
 
 const Skills = () => {
   const name = ["C", "Verilog", "Matlab"];
