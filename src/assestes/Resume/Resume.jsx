@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import ResumeCss from './ResumeCss.module.css'
-import frontend from './frontend.png'
+import frontend from './oneone.png'
 import fullstack from './fullstack.png'
 import Errors from '../Error/Error'
 
