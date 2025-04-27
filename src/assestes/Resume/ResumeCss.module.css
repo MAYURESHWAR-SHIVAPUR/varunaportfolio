@@ -69,18 +69,27 @@ h1 {
 }
 
 #fullstack {
-    background-image: url(./fullstack.png);
+    background-image: url(./twoone.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+#java {
+    background-image: url(./towtwo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 #frontend {
     background-image: url(./oneone.png);
     background-size: cover;
     background-repeat: no-repeat;
     image-rendering: optimizeSpeed;
 }
-
+#backend {
+    background-image: url(./onetwo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeSpeed;
+}
 @media(max-width:426px) {
     .outer {
         position: relative;
