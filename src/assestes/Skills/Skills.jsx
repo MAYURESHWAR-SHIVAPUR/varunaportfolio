@@ -9,32 +9,6 @@ import two from './photos/download(2).png'
 
 const Skills = () => {
 
-  const [loading, setLoading] = useState(true);
-
-  const imgsource = [zero,one,two];
-
-  useEffect(() => {
-    let loadedImg = 0;
-    imgsource.map((src) => {
-      const img = new Image();
-      img.src = src;
-      img.onload = () => {
-        loadedImg++;
-        if (loadedImg == imgsource.length) {
-          setTimeout(() => {
-            setLoading(false);
-          }, 0);
-        }
-      }
-    })
-  }, []);
-
-  if (loading) {
-    return (
-      <Loading />
-    )
-  }
-
   const name = ["C","Verilog","Matlab"];
   const imgs = [zero,one,two];
   const cards = name.map((_, i) => <Cards name={name[i]} imgs={imgs[i]} />);
