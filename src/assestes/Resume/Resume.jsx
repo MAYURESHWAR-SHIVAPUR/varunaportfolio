@@ -33,28 +33,28 @@ const Resume = () => {
 
         <div className={ResumeCss.resume}>
           <div id={ResumeCss.frontend} className={ResumeCss.frontend}></div>
-          <h1>Frontend Resume</h1>
+          <h1> </h1>
           <button onClick={() => show(0)}>Read</button>
           <button className={ResumeCss.download}>Download</button>
         </div>
 
         <div className={ResumeCss.resume}>
           <div id={ResumeCss.backend} className={ResumeCss.frontend}></div>
-          <h1>Backend Resume</h1>
+          <h1> </h1>
           <button onClick={() => show(1)}>Read</button>
           <button className={ResumeCss.download}>Download</button>
         </div>
 
         <div className={ResumeCss.resume}>
           <div id={ResumeCss.fullstack} className={ResumeCss.frontend}></div>
-          <h1>Full Stack Resume</h1>
+          <h1> </h1>
           <button onClick={() => { show(2) }}>Read</button>
           <button className={ResumeCss.download}>Download</button>
         </div>
 
         <div className={ResumeCss.resume}>
           <div id={ResumeCss.java} className={ResumeCss.frontend}></div>
-          <h1>Java Resume</h1>
+          <h1> </h1>
           <button onClick={() => { show(3) }}>Read</button>
           <button className={ResumeCss.download}> Download</button>
         </div>
