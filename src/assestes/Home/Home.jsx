@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import HomeCss from './Home.module.css'
 import Loading from '../Loading/Loadingpage'
 import mayur from './image.png'
-  
+
 const Profile = () => {
   const imgsorce = mayur;
   const [loading, setLoading] = useState(true);
