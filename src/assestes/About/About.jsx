@@ -36,7 +36,7 @@ const About = () => {
         <h2 className={AboutCss.fonts}>Educational History</h2>
         <h3> Bachelor of Engineering (2021 - 2025)(CGPA : 8.6)</h3>
         <p> I am currently pursuing my Engineering degree in Electronis and Communication Engineering at
-          Cauvery Institute of Technology, Mandya, graduated in 2025.
+          Cauvery Institute of Technology, Mandya and will graduated in 2025.
           I'm excel in collaboration and communication, skills that set me apart and
           enhance my ability to work effectively in team environments</p>
         <br />
