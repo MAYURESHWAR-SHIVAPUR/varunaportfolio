@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import AboutCss from './About.module.css'
-import mayur from '../Home/image.png';
+import mayur from '../Home/image1.png';
 import Loading from '../Loading/Loadingpage'
 const About = () => {
  
