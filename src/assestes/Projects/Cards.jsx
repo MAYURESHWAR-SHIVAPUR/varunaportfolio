@@ -12,7 +12,6 @@ const Cards = (props) => {
             <ul>
                 <li>{first}</li>
                 <li>{second}</li>
-                <li>{third}</li>
             </ul>
 
             <p>{Basic_info}</p>
