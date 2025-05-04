@@ -3,7 +3,7 @@ import ProjectsCss from './ProjectsCss.module.css'
 
 
 const Cards = (props) => {
-    const { title, first, second, third, Basic_info } = props;
+    const { title, first, second,  Basic_info } = props;
 
     return (
         <div className={ProjectsCss.child_1}>
