@@ -34,13 +34,13 @@ const Profile = () => {
         <p> Ambitious and forward-thinking Electronics and Communication engineering graduate with a strong academic record and a Persistent drive to learn and innovate. Passionate about turning ideas into real-world solutions, with a knack for critical thinking and teamwork. Eager to contribute fresh perspectives and grow in a challenging, tech-driven environment.</p>
         <br /><br />
         <a className={HomeCss.Download} href="">Download CV</a>
-        <a href="https://wa.me/916363688681?text=Hello%20I%20want%20to%20talk%20to%20about%20Hireing!" target="_blank">
-          <i class="fa-brands fa-whatsapp" ></i>
+       <a href="mailto:mnvarun0531@gmail.com?subject=Hiring%20Inquiry&body=Hello%20I%20want%20to%20talk%20to%20you%20about%20Hiring!" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
         </a>
         <a href="https://github.com/Varun0531">
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="https://wa.me/9380416697">
+        <a href="https://http://www.linkedin.com/in/varunmn0531" target="_blank">
           <i class="fa-brands fa-linkedin" ></i>
         </a>
         <a href="tel:+916363688681">
