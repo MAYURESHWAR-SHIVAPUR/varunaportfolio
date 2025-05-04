@@ -27,7 +27,7 @@ const Profile = () => {
         <h1>I'm <u className={HomeCss.fonts}>M N VARUN</u> </h1>
         <div className={HomeCss.lines}></div>
         <br />
-        <h3>Jr. <span style={{ textOverflow: "hidden" }}>Aspiring Embedded Software Engineer</span></h3>
+        <h3> Aspiring <span style={{ textOverflow: "hidden" }}>Embedded Software Engineer</span></h3>
         <br /><br />
         <h4>Quick Intro</h4>
         <br />
