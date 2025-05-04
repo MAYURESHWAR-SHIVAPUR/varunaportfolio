@@ -38,7 +38,7 @@
 .child2 img {
     /* height: 369px !important;
     width: 371px !important; */
-    background: url("../Home/mayurImg.png");
+    background: url("../Home/image1.png");
     background-size: cover;
     border: 2px solid var(--text-higlight);
     border-radius: 50%;
