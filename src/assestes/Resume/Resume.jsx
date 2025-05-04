@@ -3,7 +3,7 @@ import ResumeCss from './ResumeCss.module.css'
 import frontend from './oneone.png'
 import frontendone from './onetwo.png'
 import Errors from '../Error/Error'
-
+ 
 const Resume = () => {
 
   const shows = useRef();
