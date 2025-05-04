@@ -40,7 +40,7 @@ const Profile = () => {
         <a href="https://github.com/Varun0531">
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="https://http://www.linkedin.com/in/varunmn0531" target="_blank">
+        <a href="https://www.linkedin.com/in/varunmn0531" target="_blank">
           <i class="fa-brands fa-linkedin" ></i>
         </a>
         <a href="tel:+916363688681">
