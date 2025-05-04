@@ -68,16 +68,6 @@ h1 {
     margin-left: 35%;
 }
 
-#fullstack {
-    background-image: url(./twoone.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#java {
-    background-image: url(./twotwo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 #frontend {
     background-image: url(./oneone.png);
     background-size: cover;
