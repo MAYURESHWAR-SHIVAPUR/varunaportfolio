@@ -36,7 +36,7 @@ const Projects = () => {
 
 
   // frontend first 
-  const info_1 = "configuration (four cells in series), achieving a 1C discharge rate of 3400mAh. Focused on optimizing cell balancing, thermal management, and safety features to ensure reliable performance.";
+  const info_1 = "Overview: Designed a 14.4V Li-ion battery pack with a 4S configuration.configuration (four cells in series), achieving a 1C discharge rate of 3400mAh. Focused on optimizing cell balancing, thermal management, and safety features to ensure reliable performance.";
   const ul_1 = <ul> <li>React js</li> <li>Css</li></ul>
   const moreData_1 = "";
 
@@ -55,7 +55,6 @@ const Projects = () => {
       title="Battery Pack Design" 
       first="Language Used: MATLAB."
       second="Tools: MATLAB, Simulink."
-      third="Overview: Designed a 14.4V Li-ion battery pack with a 4S configuration."
       Basic_info={info_1} 
     />
 
@@ -63,8 +62,7 @@ const Projects = () => {
       title="Design of an 8-bit Shifter using Verilog" 
       first="Language Used: Verilog." 
       second="Tools Used: EDA Playground." 
-      third="Overview: Designed an 8-bit shifter using Verilog to shift left." 
-      Basic_info="right by N bits based on control inputs. The design used a multiplexer-based architecture and was verified using a testbench. It functioned correctly under all test cases and met timing constraints." 
+      Basic_info="Overview: Designed an 8-bit shifter using Verilog to shift left.right by N bits based on control inputs. The design used a multiplexer-based architecture and was verified using a testbench. It functioned correctly under all test cases and met timing constraints." 
     />
 
     <Outlet />
